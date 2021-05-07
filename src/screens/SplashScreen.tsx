@@ -15,8 +15,8 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
   return (
     <SafeAreaView>
       <Button onPress={() => navigation.push("home")} title="home" />
-      <Button onPress={() => navigation.push("signIn")} title="signIn" />
-      <Button onPress={() => navigation.push("signUp")} title="signUp" />
+      <Button onPress={() => navigation.push("signIn")} title="Login" />
+      <Button onPress={() => navigation.push("signUp")} title="Sign Up" />
     </SafeAreaView>
   );
 };
